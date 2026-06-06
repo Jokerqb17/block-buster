@@ -16,7 +16,7 @@ spec:
         app: web-app
     spec:
       containers:
-      - image: nginx
+      - image: nginx:alpine
         name: webcont
         resources:
           requests:
